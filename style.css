@@ -1,0 +1,22 @@
+body {
+  background: #b71220!important;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+ul > li > h1 {
+  color: white;
+}
+
+body > div > div > div:nth-child(1) > ul > li:nth-child(1) > h1 {
+  font-size: 40px;
+}
+
+canvas#myChart {
+  width: 80%!important;
+  height: 20%!important;
+  margin-top: 80px;
+}
